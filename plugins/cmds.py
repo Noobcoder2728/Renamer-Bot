@@ -32,11 +32,11 @@ async def start(bot, update):
           text=Scripted.START_TEXT,
           parse_mode="html",
           disable_web_page_preview=True,
-          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='⭕ Cʜᴀɴɴᴇʟ ⭕', url=f'https://t.me/{Config.UPDATE_CHANNEL}'),
-                                                 InlineKeyboardButton(text='⭕ Sᴜᴘᴘᴏʀᴛ ⭕', url=f'https://t.me/{Config.UPDATE_GROUP}') ],
-                                               [ InlineKeyboardButton(text='👮 DᴇvᴇlopᴇR', url='https://t.me/TheTeleRoid'),
-                                                 InlineKeyboardButton(text='🚸 Pᴏweʀᴇd By', url='https://t.me/MoviesFlixers_DL') ],
-                                               [ InlineKeyboardButton(text='🔐 Cʟᴏꜱᴇ 🔐', callback_data='DM') ] ] ) )
+          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='📢 Updates Channel', url=f'https://t.me/{Config.UPDATE_CHANNEL}'),
+                                                 InlineKeyboardButton(text='👥 Support Group', url=f'https://t.me/{Config.UPDATE_GROUP}') ],
+                                               [ InlineKeyboardButton(text='🤖 DᴇvᴇlopᴇR', url='https://t.me/No1_Bots_Admin'),
+                                                 InlineKeyboardButton(text='💥 Pᴏweʀᴇd By', url='https://t.me/T9Links') ],
+                                               [ InlineKeyboardButton(text='🔐 Cʟᴏꜱᴇ', callback_data='DM') ] ] ) )
 
 
 
